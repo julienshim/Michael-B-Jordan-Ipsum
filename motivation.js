@@ -1,4 +1,10 @@
-const success = [
+var count = document.querySelector('select#pCount');
+
+count.addEventListener('change', function (event) {
+    alert(parseInt(event.srcElement.value));
+});
+
+var success = [
     "Sometimes you gotta go with your first instinct. You gotta go with your gut. That's kind of how I live my life you gotta go with your gut.",
     "Sometimes you're overthinking, you convince yourself to get out of it and you're like 'ah I shoulda did that!' You can't live life with regrets. Sometimes you just gotta indulge. But in the same breath, you gotta have restraint and self-control too.",
     "Do as much homework as you can. Learn everybody's job and don't just settle.",
@@ -20,8 +26,5 @@ const success = [
     "As human beings, why does it take somebody to feel like they're close to us for us to see their humanity? Why can't we see the huamnity in people that are distant from us?",
     "I do a lot. I don't like to sit still. I am pretty spontaneous. I like to cook a lot. I like to eat. I like to workout, surf, read, write, and create. I am always working on a couple of projects that I always have and need to put more time into.",
     "Equality means having the same rights and liberties and opportunities regardless of our differences.",
-    "I want to be worldwide",
-
-
-
+    "I want to be worldwide"
 ];
