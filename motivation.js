@@ -33,8 +33,10 @@ var motivation = [
     "We're at a hundred right now.",
 ];
 
-generateParagraphs();
+// Initial Selected '3 Paragraphs'
+generateParagraphs(3);
 
+// Generate Paragraphs
 function generateParagraphs(number) {
 
     results.innerHTML = "";
@@ -43,6 +45,7 @@ function generateParagraphs(number) {
 
         var paragraph = document.createElement('p');
         var text = "";
+
         if (i === 0) {
             text = "Michael B. Jordan Ipsum will motivate you."
         }
@@ -58,6 +61,7 @@ function generateParagraphs(number) {
     }
 };
 
+// Listen for list changes and generate new paragraphs
 count.addEventListener('change', function (event) {
     generateParagraphs(parseInt(event.srcElement.value));
 });
