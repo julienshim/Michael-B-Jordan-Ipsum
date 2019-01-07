@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#photo {
+    background: url('./mbj.jpg') no-repeat;
+    background-size: cover;
+    height: 100vw;
+    border: 10px solid #1f1f1f;
+}
+
+div#content {
+    padding: 30px;
+    font-family: georgia;
+    background: #cccccc;
+}
+
+div#header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div#header h1 {
+    font-size: 24px;
+}
+
+.hello { 
+    text-align: justify;
+    margin: 30px 0;
+}
+
+@media (min-width: 450px) {
+    div#container {
+        display: flex;
+        flex-direction: row;
+    }
+    div#photo {
+        height: calc(100vh - 20px);
+        width: 50%;
+        flex: 1;
+    }
+    div#content {
+        flex: 1;
+    }
+};

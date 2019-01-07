@@ -34,7 +34,7 @@ var motivation = [
 ];
 
 // Initial Selected '3 Paragraphs'
-generateParagraphs(3);
+generateParagraphs(10);
 
 // Generate Paragraphs
 function generateParagraphs(number) {
@@ -57,6 +57,7 @@ function generateParagraphs(number) {
         
         var textNode = document.createTextNode(text);
         paragraph.append(textNode);
+        paragraph.setAttribute('class', 'hello');
         results.appendChild(paragraph);
     }
 };
