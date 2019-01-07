@@ -34,7 +34,7 @@ var motivation = [
 ];
 
 // Initial Selected '3 Paragraphs'
-generateParagraphs(10);
+generateParagraphs(3);
 
 // Generate Paragraphs
 function generateParagraphs(number) {
