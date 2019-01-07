@@ -31,6 +31,7 @@ var motivation = [
     "To the trolls on the internet, I want to say: get your head out of the computer. Go outside and walk around. Look at the people walking next to you. Look at your friends’ friends and who they’re interacting with. And just understand this is the world we live in. It’s OK to like it.",
     "My path is my path. I can’t take nothing away from nobody and nobody can take nothing away from me. I’m running my race. But we can still encourage each other.",
     "We're at a hundred right now.",
+    "I used to run myself into the ground, 'til pure exhaustion. Just because then I'd feel like I desevere it. That's probably why I go so hard in the gym, go so hard in life."
 ];
 
 // Initial Selected '3 Paragraphs'
