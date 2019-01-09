@@ -45,7 +45,7 @@ div#content-container {
   text-align: justify;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 960px) {
   div#container {
     position: absolute;
     display: flex;
@@ -61,6 +61,7 @@ div#content-container {
 
   div#content-container {
     max-width: 450px;
+    padding: 30px;
   }
 
   div#photo {
