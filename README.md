@@ -1,7 +1,7 @@
 # Michael B. Jordan Ipsum
 
 ## Overview
-Lorem Ipsum but with Michael B. Jordan motviational quotes. 
+Lorem Ipsum but with Michael B. Jordan motivational quotes.
 
 ## Demo
 
